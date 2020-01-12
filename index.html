@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+
+    <h1>Password Generator</h1>
+    <div class="row"><br></div>
+    <div class="row justify-content-center justify-content-sm-center">
+        <div class="col-md-10 whiteBox">
+            <h2>Generate Password</h2>
+            <hr>
+            </hr>
+            <div class="row justify-content-center justify-content-sm-center">
+                <div class="col-md-10 boxheight">
+                    <br>
+                    <textarea class="returnPassword" id="return" type="text"></textarea>
+                    <br>
+
+                    <button type="button" class="btn btn-primary btn-lg" onclick="promptMe()">Generate Password</button>
+                    <button type="button" class="btn btn-secondary btn-lg" onclick="copyPassword()">Copy to Clipboard</button>
+                    <br>
+                </div>  
+            </div>
+        </div>
+
+
+
+        <script src="./script.js"></script>
+
+</body>
+
+</html>
