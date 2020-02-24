@@ -1,5 +1,9 @@
 # homework-3
 
+#Link
+https://wcalil.github.io/homework-3/
+
+
 # Variables
 
 The variable definition was based on the number of choices the user could have in terms of types of characters. In the case of this work, 12. All combinations of choice became a variable. Important to mention that all variables are string type. Below you see all the variables:
